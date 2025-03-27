@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@antv/x6/dist/x6.css">
+  <style>
+    .x6-node [data-selector="label"] {
+      word-break: break-word !important;
+      white-space: pre-wrap !important;
+      overflow: hidden !important;
+    }
+  </style>
+</head>
+<body>
+  <div id="container" style="width: 800px; height: 600px;"></div>
+  <script src="https://cdn.jsdelivr.net/npm/@antv/x6/dist/x6.js"></script>
+  <script>
+    const { Graph, Shape } = X6;
+
+    // 注册自动换行节点
+    Graph.registerNode('wrap-node', {
+      inherit: 'rect',
+      width: 200,
+      height: 'auto',
+      markup: [/* 同修正方法一 */],
+      attrs: { /* 同修正方法一 */ },
+      setText(text) { /* 同修正方法一 */ }
+    });
+
+    // 注册动态宽度节点
+    Graph.registerNode('auto-width-node', {
+      inherit: 'rect',
+      height: 40,
+      attrs: { /* 同修正方法二 */ },
+      onCreated({ node }) { /* 同修正方法二 */ }
+    });
+
+    // 初始化画布
+    const graph = new Graph({
+      container: document.getElementById('container'),
+      grid: true,
+      background: { color: '#fff' }
+    });
+
+    // 添加测试节点
+    graph.addNode({
+      shape: 'wrap-node',
+      x: 50,
+      y: 50,
+      label: '这是一个非常非常长的文本，用于测试自动换行功能是否能正确工作。',
+    });
+
+    graph.addNode({
+      shape: 'auto-width-node',
+      x: 50,
+      y: 150,
+      label: '动态调整宽度节点，文本内容越长节点越宽。',
+    });
+  </script>
+</body>
+</html>

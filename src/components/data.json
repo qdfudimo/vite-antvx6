@@ -1,0 +1,398 @@
+{
+  "code": 0,
+  "msg": null,
+  "data": [
+    {
+      "id": "1071607732844498944",
+      "name": "测试",
+      "leaf": true,
+      "type": "folder",
+      "children": [
+        {
+          "id": "1072564103370903553",
+          "name": "act_app_databasechangelog",
+          "leaf": false,
+          "type": "db",
+          "children": null,
+          "dsId": "1072590467381727232",
+          "dsName": "10.55-ob-safe-dev",
+          "originTableName": "act_app_databasechangelog",
+          "originTableComment": ""
+        },
+        {
+          "id": "1072592886471725056",
+          "name": "cloud_share",
+          "leaf": false,
+          "type": "db",
+          "children": null,
+          "dsId": "1072590467381727232",
+          "dsName": "10.55-ob-safe-dev",
+          "originTableName": "cloud_share",
+          "originTableComment": ""
+        },
+        {
+          "id": "1072592886475919360",
+          "name": "cloud_picturefile",
+          "leaf": false,
+          "type": "db",
+          "children": null,
+          "dsId": "1072590467381727232",
+          "dsName": "10.55-ob-safe-dev",
+          "originTableName": "cloud_picturefile",
+          "originTableComment": ""
+        },
+        {
+          "id": "1072593256916848640",
+          "name": "cloud_fileextend",
+          "leaf": false,
+          "type": "db",
+          "children": null,
+          "dsId": "1072590467381727232",
+          "dsName": "10.55-ob-safe-dev",
+          "originTableName": "cloud_fileextend",
+          "originTableComment": ""
+        },
+        {
+          "id": "1073730646834286592",
+          "name": "cloud_filetag",
+          "leaf": false,
+          "type": "db",
+          "children": null,
+          "dsId": "1072590467381727232",
+          "dsName": "10.55-ob-safe-dev",
+          "originTableName": "cloud_filetag",
+          "originTableComment": ""
+        }
+      ],
+      "dsId": null,
+      "dsName": null,
+      "originTableName": null,
+      "originTableComment": null
+    },
+    {
+      "id": "1072271356076363776",
+      "name": "bladex业务",
+      "leaf": true,
+      "type": "folder",
+      "children": [
+        {
+          "id": "1072622625819332608",
+          "name": "act_de_databasechangelog",
+          "leaf": false,
+          "type": "db",
+          "children": null,
+          "dsId": "1072590467381727232",
+          "dsName": "10.55-ob-safe-dev",
+          "originTableName": "act_de_databasechangelog",
+          "originTableComment": ""
+        },
+        {
+          "id": "1072622625819332609",
+          "name": "act_de_databasechangeloglock",
+          "leaf": false,
+          "type": "db",
+          "children": null,
+          "dsId": "1072590467381727232",
+          "dsName": "10.55-ob-safe-dev",
+          "originTableName": "act_de_databasechangeloglock",
+          "originTableComment": ""
+        },
+        {
+          "id": "1072622625819332610",
+          "name": "act_hi_attachment",
+          "leaf": false,
+          "type": "db",
+          "children": null,
+          "dsId": "1072590467381727232",
+          "dsName": "10.55-ob-safe-dev",
+          "originTableName": "act_hi_attachment",
+          "originTableComment": ""
+        },
+        {
+          "id": "1072622625819332611",
+          "name": "act_hi_comment",
+          "leaf": false,
+          "type": "db",
+          "children": null,
+          "dsId": "1072590467381727232",
+          "dsName": "10.55-ob-safe-dev",
+          "originTableName": "act_hi_comment",
+          "originTableComment": ""
+        },
+        {
+          "id": "1072622933974847488",
+          "name": "分类1",
+          "leaf": true,
+          "type": "folder",
+          "children": [
+            {
+              "id": "1072622979634040832",
+              "name": "act_cmmn_casedef",
+              "leaf": false,
+              "type": "db",
+              "children": null,
+              "dsId": "1072590467381727232",
+              "dsName": "10.55-ob-safe-dev",
+              "originTableName": "act_cmmn_casedef",
+              "originTableComment": ""
+            }
+          ],
+          "dsId": null,
+          "dsName": null,
+          "originTableName": null,
+          "originTableComment": null
+        },
+        {
+          "id": "1073601416112771072",
+          "name": "vbg",
+          "leaf": true,
+          "type": "folder",
+          "children": [
+            {
+              "id": "1073686534500257792",
+              "name": "safe_personal_elongate_info_temp",
+              "leaf": false,
+              "type": "db",
+              "children": null,
+              "dsId": "1072590467381727232",
+              "dsName": "10.55-ob-safe-dev",
+              "originTableName": "safe_personal_elongate_info_temp",
+              "originTableComment": "人员档案扩线信息表"
+            },
+            {
+              "id": "1073686534500257793",
+              "name": "safe_phone_info_temp",
+              "leaf": false,
+              "type": "db",
+              "children": null,
+              "dsId": "1072590467381727232",
+              "dsName": "10.55-ob-safe-dev",
+              "originTableName": "safe_phone_info_temp",
+              "originTableComment": "电话号码信息表"
+            },
+            {
+              "id": "1073686534500257794",
+              "name": "safe_personal_records_temp_2",
+              "leaf": false,
+              "type": "db",
+              "children": null,
+              "dsId": "1072590467381727232",
+              "dsName": "10.55-ob-safe-dev",
+              "originTableName": "safe_personal_records_temp_2",
+              "originTableComment": "个人档案信息表"
+            },
+            {
+              "id": "1073686534500257796",
+              "name": "toolset_file_label",
+              "leaf": false,
+              "type": "db",
+              "children": null,
+              "dsId": "1072590467381727232",
+              "dsName": "10.55-ob-safe-dev",
+              "originTableName": "toolset_file_label",
+              "originTableComment": ""
+            },
+            {
+              "id": "1073686534500257797",
+              "name": "rr_case_case_doc",
+              "leaf": false,
+              "type": "db",
+              "children": null,
+              "dsId": "1072590467381727232",
+              "dsName": "10.55-ob-safe-dev",
+              "originTableName": "rr_case_case_doc",
+              "originTableComment": ""
+            },
+            {
+              "id": "1073686534500257798",
+              "name": "rr_case_user",
+              "leaf": false,
+              "type": "db",
+              "children": null,
+              "dsId": "1072590467381727232",
+              "dsName": "10.55-ob-safe-dev",
+              "originTableName": "rr_case_user",
+              "originTableComment": ""
+            },
+            {
+              "id": "1073686534500257799",
+              "name": "rr_case_note",
+              "leaf": false,
+              "type": "db",
+              "children": null,
+              "dsId": "1072590467381727232",
+              "dsName": "10.55-ob-safe-dev",
+              "originTableName": "rr_case_note",
+              "originTableComment": ""
+            },
+            {
+              "id": "1073686534500257800",
+              "name": "rr_case_file",
+              "leaf": false,
+              "type": "db",
+              "children": null,
+              "dsId": "1072590467381727232",
+              "dsName": "10.55-ob-safe-dev",
+              "originTableName": "rr_case_file",
+              "originTableComment": ""
+            },
+            {
+              "id": "1073686534500257801",
+              "name": "cloud_file_parse_result",
+              "leaf": false,
+              "type": "db",
+              "children": null,
+              "dsId": "1072590467381727232",
+              "dsName": "10.55-ob-safe-dev",
+              "originTableName": "cloud_file_parse_result",
+              "originTableComment": ""
+            }
+          ],
+          "dsId": null,
+          "dsName": null,
+          "originTableName": null,
+          "originTableComment": null
+        }
+      ],
+      "dsId": null,
+      "dsName": null,
+      "originTableName": null,
+      "originTableComment": null
+    },
+    {
+      "id": "1074785510720933888",
+      "name": "数据同步库",
+      "leaf": true,
+      "type": "folder",
+      "children": [
+        {
+          "id": "1074785623518351360",
+          "name": "cv_task",
+          "leaf": false,
+          "type": "db",
+          "children": null,
+          "dsId": "1074784530881187840",
+          "dsName": "110-st-demo",
+          "originTableName": "cv_task",
+          "originTableComment": "任务表"
+        },
+        {
+          "id": "1074785623518351361",
+          "name": "employees_1",
+          "leaf": false,
+          "type": "db",
+          "children": null,
+          "dsId": "1074784530881187840",
+          "dsName": "110-st-demo",
+          "originTableName": "employees_1",
+          "originTableComment": ""
+        },
+        {
+          "id": "1074785623518351362",
+          "name": "employees_2",
+          "leaf": false,
+          "type": "db",
+          "children": null,
+          "dsId": "1074784530881187840",
+          "dsName": "110-st-demo",
+          "originTableName": "employees_2",
+          "originTableComment": ""
+        },
+        {
+          "id": "1074785623518351363",
+          "name": "employees_3",
+          "leaf": false,
+          "type": "db",
+          "children": null,
+          "dsId": "1074784530881187840",
+          "dsName": "110-st-demo",
+          "originTableName": "employees_3",
+          "originTableComment": ""
+        },
+        {
+          "id": "1074785623518351364",
+          "name": "hdfs_person",
+          "leaf": false,
+          "type": "db",
+          "children": null,
+          "dsId": "1074784530881187840",
+          "dsName": "110-st-demo",
+          "originTableName": "hdfs_person",
+          "originTableComment": ""
+        },
+        {
+          "id": "1074791516549025792",
+          "name": "excel_test_68309e5399",
+          "leaf": false,
+          "type": "excel",
+          "children": null,
+          "dsId": "1074786214973935616",
+          "dsName": "test",
+          "originTableName": "excel_test_68309e5399",
+          "originTableComment": "excel_test_68309e5399"
+        }
+      ],
+      "dsId": null,
+      "dsName": null,
+      "originTableName": null,
+      "originTableComment": null
+    },
+    {
+      "id": "1076205072507080704",
+      "name": "越南数据库",
+      "leaf": true,
+      "type": "folder",
+      "children": [
+        {
+          "id": "1076205358717997056",
+          "name": "act_fo_form_resource",
+          "leaf": false,
+          "type": "db",
+          "children": null,
+          "dsId": "1072590467381727232",
+          "dsName": "10.55-ob-safe-dev",
+          "originTableName": "act_fo_form_resource",
+          "originTableComment": ""
+        },
+        {
+          "id": "1076205358717997057",
+          "name": "act_ge_bytearray",
+          "leaf": false,
+          "type": "db",
+          "children": null,
+          "dsId": "1072590467381727232",
+          "dsName": "10.55-ob-safe-dev",
+          "originTableName": "act_ge_bytearray",
+          "originTableComment": ""
+        }
+      ],
+      "dsId": null,
+      "dsName": null,
+      "originTableName": null,
+      "originTableComment": null
+    },
+    {
+      "id": "1087819662957350912",
+      "name": "lxdb",
+      "leaf": true,
+      "type": "folder",
+      "children": [
+        {
+          "id": "1087819852258873344",
+          "name": "dwd_404_data",
+          "leaf": false,
+          "type": "db",
+          "children": null,
+          "dsId": "1087819589565419520",
+          "dsName": "10.55-lxdb-1",
+          "originTableName": "dwd_404_data",
+          "originTableComment": ""
+        }
+      ],
+      "dsId": null,
+      "dsName": null,
+      "originTableName": null,
+      "originTableComment": null
+    }
+  ]
+}
