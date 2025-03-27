@@ -5,6 +5,7 @@
  ### 边自定义图片标签
  ### 区分点击是否是不需要触发的
   [X6开发实践](https://www.yuque.com/sxd_panda/antv/x6)
-  
+
   [X6官方文档](https://x6.antv.antgroup.com/tutorial/getting-started)
+  ![image](/doc/case.png)
 
